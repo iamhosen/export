@@ -5,7 +5,7 @@ const axios = require('axios');
 const path = require('path');
 
 const category = "traveling-equipment"
-const url = `https://api.digikala.com/v1/categories/${category}/search/?seo_url=&page=`;
+const url = `https://api.digikala.com/v1/search/?q=%D9%86%D9%88%D8%B4%DB%8C%D8%AF%D9%86%DB%8C&sort=7&seo_url=&page=`;
 const startPage = 1;
 const endPage = 10;
 let id = 0;
